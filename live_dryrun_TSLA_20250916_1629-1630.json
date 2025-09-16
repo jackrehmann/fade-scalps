@@ -1,0 +1,56 @@
+{
+  "session_info": {
+    "symbols": [
+      "TSLA"
+    ],
+    "start_time": "2025-09-16T16:29:04.038408",
+    "end_time": "2025-09-16T16:30:43.093972",
+    "duration_minutes": 1.6509260666666667,
+    "shares_per_dollar": 100,
+    "min_move_threshold": 0.05,
+    "time_window_minutes": 2.0,
+    "max_position": 5000,
+    "total_trades": 3
+  },
+  "trades": [
+    {
+      "timestamp": "2025-09-16T16:29:04.437054",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 16,
+      "price": 421.945,
+      "reason": "Fade $-0.21 move (excess: $0.16)",
+      "price_move": -0.214999999999975,
+      "window_high": 422.15999999999997,
+      "window_low": 421.945,
+      "current_price": 421.945,
+      "order_id": 1
+    },
+    {
+      "timestamp": "2025-09-16T16:29:04.437509",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 11,
+      "price": 421.835,
+      "reason": "Fade $-0.32 move (excess: $0.27)",
+      "price_move": -0.32499999999998863,
+      "window_high": 422.15999999999997,
+      "window_low": 421.835,
+      "current_price": 421.835,
+      "order_id": 2
+    },
+    {
+      "timestamp": "2025-09-16T16:29:09.651952",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 12,
+      "price": 421.71,
+      "reason": "Fade $-0.45 move (excess: $0.40)",
+      "price_move": -0.44999999999998863,
+      "window_high": 422.15999999999997,
+      "window_low": 421.71,
+      "current_price": 421.71,
+      "order_id": 3
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "backtest_info": {
+    "symbol": "TSLA",
+    "date": "20250912",
+    "start_time": "09:30",
+    "end_time": "09:32",
+    "config": {
+      "shares_per_dollar": 100.0,
+      "min_move_threshold": 2.5,
+      "time_window_minutes": 2.0,
+      "max_position": 5000
+    },
+    "total_trades": 12,
+    "total_pnl": 73.75000000000028,
+    "win_rate": 0.3333333333333333,
+    "max_position": 52,
+    "final_position": 0,
+    "price_ticks": 5093
+  },
+  "trades": [
+    {
+      "timestamp": "2025-09-12T09:30:29",
+      "symbol": "TSLA",
+      "action": "SELL",
+      "quantity": 10,
+      "price": 372.91499999999996,
+      "reason": "Fade $2.61 move (excess: $0.11)",
+      "price_move": 2.609999999999957,
+      "window_high": 372.91499999999996,
+      "window_low": 370.305,
+      "current_price": 372.91499999999996
+    },
+    {
+      "timestamp": "2025-09-12T09:30:30",
+      "symbol": "TSLA",
+      "action": "SELL",
+      "quantity": 11,
+      "price": 373.02,
+      "reason": "Fade $2.71 move (excess: $0.21)",
+      "price_move": 2.714999999999975,
+      "window_high": 373.02,
+      "window_low": 370.305,
+      "current_price": 373.02
+    },
+    {
+      "timestamp": "2025-09-12T09:30:30",
+      "symbol": "TSLA",
+      "action": "SELL",
+      "quantity": 10,
+      "price": 373.12,
+      "reason": "Fade $2.81 move (excess: $0.31)",
+      "price_move": 2.8149999999999977,
+      "window_high": 373.12,
+      "window_low": 370.305,
+      "current_price": 373.12
+    },
+    {
+      "timestamp": "2025-09-12T09:30:30",
+      "symbol": "TSLA",
+      "action": "SELL",
+      "quantity": 10,
+      "price": 373.22,
+      "reason": "Fade $2.92 move (excess: $0.42)",
+      "price_move": 2.9150000000000205,
+      "window_high": 373.22,
+      "window_low": 370.305,
+      "current_price": 373.22
+    },
+    {
+      "timestamp": "2025-09-12T09:30:30",
+      "symbol": "TSLA",
+      "action": "SELL",
+      "quantity": 11,
+      "price": 373.32500000000005,
+      "reason": "Fade $3.02 move (excess: $0.52)",
+      "price_move": 3.0200000000000387,
+      "window_high": 373.32500000000005,
+      "window_low": 370.305,
+      "current_price": 373.32500000000005
+    },
+    {
+      "timestamp": "2025-09-12T09:30:34",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 10,
+      "price": 372.22,
+      "reason": "Fade $1.92 move (excess: $0.00)",
+      "price_move": 1.9150000000000205,
+      "window_high": 373.41499999999996,
+      "window_low": 370.305,
+      "current_price": 372.22
+    },
+    {
+      "timestamp": "2025-09-12T09:30:45",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 10,
+      "price": 371.78499999999997,
+      "reason": "Fade $-1.63 move (excess: $0.00)",
+      "price_move": -1.6299999999999955,
+      "window_high": 373.41499999999996,
+      "window_low": 370.305,
+      "current_price": 371.78499999999997
+    },
+    {
+      "timestamp": "2025-09-12T09:30:48",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 10,
+      "price": 371.35,
+      "reason": "Fade $-2.06 move (excess: $0.00)",
+      "price_move": -2.064999999999941,
+      "window_high": 373.41499999999996,
+      "window_low": 370.305,
+      "current_price": 371.35
+    },
+    {
+      "timestamp": "2025-09-12T09:31:31",
+      "symbol": "TSLA",
+      "action": "SELL",
+      "quantity": 11,
+      "price": 373.145,
+      "reason": "Fade $2.84 move (excess: $0.34)",
+      "price_move": 2.839999999999975,
+      "window_high": 373.41499999999996,
+      "window_low": 370.305,
+      "current_price": 373.145
+    },
+    {
+      "timestamp": "2025-09-12T09:31:31",
+      "symbol": "TSLA",
+      "action": "SELL",
+      "quantity": 10,
+      "price": 373.235,
+      "reason": "Fade $2.93 move (excess: $0.43)",
+      "price_move": 2.930000000000007,
+      "window_high": 373.41499999999996,
+      "window_low": 370.305,
+      "current_price": 373.235
+    },
+    {
+      "timestamp": "2025-09-12T09:31:38",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 10,
+      "price": 372.17999999999995,
+      "reason": "Fade $1.87 move (excess: $0.00)",
+      "price_move": 1.8749999999999432,
+      "window_high": 373.41499999999996,
+      "window_low": 370.305,
+      "current_price": 372.17999999999995
+    },
+    {
+      "timestamp": "2025-09-12T09:32:02",
+      "symbol": "TSLA",
+      "action": "BUY",
+      "quantity": 33,
+      "price": 372.43,
+      "reason": "End of simulation - flatten position",
+      "price_move": 0.0,
+      "window_high": 0.0,
+      "window_low": 0.0,
+      "current_price": 372.43
+    }
+  ]
+}
