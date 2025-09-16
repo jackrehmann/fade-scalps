@@ -1,0 +1,39 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs
+*.log
+fade_trader.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Trading data
+*.json
+!config.json
+*.png
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
