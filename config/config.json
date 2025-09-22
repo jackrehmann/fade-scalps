@@ -1,0 +1,11 @@
+{
+  "symbols": ["AAPL", "TSLA", "NVDA"],
+  "shares_per_dollar": 100,
+  "min_move_threshold": 1.50,
+  "time_window_minutes": 2.0,
+  "max_position": 5000,
+  "ibkr_host": "127.0.0.1",
+  "ibkr_port": 4002,
+  "client_id": 1,
+  "dry_run": true
+}
